@@ -1,0 +1,5 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/CalcGabriel_Math/.vs/CalcGabriel_Math/v15/Server/sqlite3
