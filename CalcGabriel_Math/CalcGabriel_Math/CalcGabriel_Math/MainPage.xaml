@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalcGabriel_Math"
+             x:Class="CalcGabriel_Math.MainPage"
+             BackgroundColor="DarkGray">
+
+    <StackLayout>
+
+        <Label 
+                
+                Text=" CALCULADORA LOUCA E DOIDA !!! "
+                FontAttributes="Italic" 
+                FontSize="Large"
+                HorizontalOptions="Center"
+                />
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Row="3"
+                Grid.Column="1"
+                Text="{Binding Resultado1}"
+                   
+                
+            />
+            <Label
+                Grid.Row="3"
+                Grid.Column="3"
+                Text="{Binding Resultado2} "
+                
+           
+                   
+                
+            />
+            <!--RESULTADO-->
+
+            <Label
+                Grid.Row="8"
+                Grid.ColumnSpan="4"
+                Text="{Binding Resultado}" 
+                TextColor="White" 
+                FontAttributes="None" 
+                FontSize="Large"
+            />
+
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="4"
+                Grid.RowSpan="2"
+                Grid.Column="3"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                Text="="
+                Command="{Binding RealizaOperacaoCommand}"
+                />
+            <!--NUMEROS-->
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="4"
+                Grid.Column="0"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                x:Name="N1"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N1}, Path=Text}"
+                Text="1"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="4"
+                Grid.Column="1"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+               TextColor="Black"
+                 x:Name="N2"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N2}, Path=Text}"
+                Text="2"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="4"
+                Grid.Column="2"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                 x:Name="N3"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N3}, Path=Text}"
+                Text="3"
+                />
+
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="5"
+                Grid.Column="0"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+               TextColor="Black"
+                 x:Name="N4"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N4}, Path=Text}"
+                Text="4"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="5"
+                Grid.Column="1"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+               TextColor="Black"
+                 x:Name="N5"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N5}, Path=Text}"
+                Text="5"
+                />
+            <Button 
+               BackgroundColor="LightGreen"
+                Grid.Row="5"
+                Grid.Column="2"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+               TextColor="Black"
+                 x:Name="N6"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N6}, Path=Text}"
+                Text="6"
+                />
+            <Button 
+               BackgroundColor="LightGreen"
+                Grid.Row="6"
+                Grid.Column="0"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                 x:Name="N7"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N7}, Path=Text}"
+                Text="7"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="6"
+                Grid.Column="1"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+              TextColor="Black"
+                 x:Name="N8"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N8}, Path=Text}"
+                Text="8"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="6"
+                Grid.Column="2"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                 x:Name="N9"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N9}, Path=Text}"
+                Text="9"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="7"
+                Grid.Column="0"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                 x:Name="N0"
+                Command="{Binding InsereNumeroCommand}" 
+                CommandParameter="{Binding Source={x:Reference N0}, Path=Text}"
+                Text="0"
+            />
+            <!--NUMEROS-->
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="6"
+                Grid.Column="3"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                Text="+"
+                x:Name="Soma"
+                Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference Soma}, Path=Text}"
+                />
+            <Button 
+               BackgroundColor="LightGreen"
+                Grid.Row="7"
+                Grid.Column="3"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                Text="-"
+                x:Name="Subtracao"
+                Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference Subtracao}, Path=Text}"
+                />
+            <Button 
+               BackgroundColor="LightGreen"
+                Grid.Row="7"
+                Grid.Column="1"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+               TextColor="Black"
+                Text="*"
+                x:Name="Multiplicacao"
+                Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference Multiplicacao}, Path=Text}"
+                />
+            <Button 
+                BackgroundColor="LightGreen"
+                Grid.Row="7"
+                Grid.Column="2"          
+                HeightRequest="20"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                TextColor="Black"
+                Text="/"
+                x:Name="Divisao"
+                Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference Divisao}, Path=Text}"
+                />
+
+            <Button
+           Text="Limpar" 
+           Grid.Row="9"
+           HeightRequest="40"
+           Grid.Column="0"
+           Grid.ColumnSpan="4"
+           Command="{Binding Limpar}"
+           />
+
+            <Image 
+                    Grid.Row="10"
+                    Grid.Column="2"
+                    Grid.RowSpan="8"
+                    HeightRequest="1000"
+                    WidthRequest="1000"
+                    Source="calc_if.png"
+                    />
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

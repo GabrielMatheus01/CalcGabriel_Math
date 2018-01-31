@@ -1,0 +1,11 @@
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\bin\Debug\netstandard2.0\CalcGabriel_Math.deps.json
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\bin\Debug\netstandard2.0\CalcGabriel_Math.dll
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\bin\Debug\netstandard2.0\CalcGabriel_Math.pdb
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.App.xaml.g.cs
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.MainPage.xaml.g.cs
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.AssemblyInfoInputs.cache
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.AssemblyInfo.cs
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.dll
+C:\Users\gabriel.mdsantos\Desktop\Calc_GabrielM\CalcGabriel_Math\CalcGabriel_Math\CalcGabriel_Math\obj\Debug\netstandard2.0\CalcGabriel_Math.pdb

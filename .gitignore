@@ -3,3 +3,6 @@
 ################################################################################
 
 /CalcGabriel_Math/.vs/CalcGabriel_Math/v15/Server/sqlite3
+/CalcGabriel_Math/CalcGabriel_Math/CalcGabriel_Math.Android/Assets
+/CalcGabriel_Math/CalcGabriel_Math/CalcGabriel_Math.Android/obj/Debug/android/assets
+/CalcGabriel_Math/CalcGabriel_Math/CalcGabriel_Math.Android/obj/Debug/android/bin/classes
